@@ -1,0 +1,217 @@
+{
+  "review_type": "bounded independent sanitized private evidence custody audit",
+  "reviewer": "codex:/root/bounded_independent_review",
+  "reviewer_task": "/root/bounded_independent_review",
+  "parent_native_session_witness": "01a11342-68e2-7851-9636-9af99289c0d7",
+  "independent_native_session_id": null,
+  "human_review": false,
+  "reviewed_at": "2026-10-07T01:14:30.636131+00:00",
+  "status": "PASS",
+  "status_scope": "Removal of the known captured credential field from the checked working inputs and seven advertised branch histories, current digest custody and explicit historical/native limitations. Not universal credential clearance or native acceptance.",
+  "observed_sanitized_input_head": "8efb38216012e87d032058149c9a51fd09600042",
+  "sanitized_refs": {
+    "refs/heads/canary/absent": "827dc41ed47f41c67235e7e0236fde6bda44ff40",
+    "refs/heads/canary/cancelled": "fcfcf2e17c06f499c0873a4f6317bcb9eb19e3ce",
+    "refs/heads/canary/failed": "6f940e6400a71b8e84e0390af3012a0b844ec502",
+    "refs/heads/canary/passing": "8aa6011e562c49511902deaac0e7b9764253845c",
+    "refs/heads/canary/skipped": "def737ca2f6f91448a58a04441447e087d2a1441",
+    "refs/heads/evidence/native-pilot-attempt": "8efb38216012e87d032058149c9a51fd09600042",
+    "refs/heads/main": "3f0b63ca3f7ff7fce30163c20fbb7c1ca4f462e3"
+  },
+  "scope": "Seven session-created pilot branches and their reachable JSON blob history, current private evidence input JSONs, sanitized manifest, original manifest/attestation preservation, correction note and local object/reflog checks. Correction note and sanitized manifest were uncommitted working inputs at review time and are bound by exact bytes. No native settings mutated or tests created; no credential value printed or reproduced.",
+  "inputs": [
+    {
+      "path": "evidence/annotations-pilot-required.json",
+      "sha256": "dd266d792184da68138cfb14b140da35b10986629e6edddc7ba7f808cddcc9c9"
+    },
+    {
+      "path": "evidence/annotations-pilot-test.json",
+      "sha256": "d789db9bab6fe11af58b34f7fe299a61735481a983b6347863148d4cf99c9984"
+    },
+    {
+      "path": "evidence/approval.json",
+      "sha256": "7fd5095bfe590038c74b50b8d10d5555d82bbc56ddfc220423913481acc3c62a"
+    },
+    {
+      "path": "evidence/canary-index.json",
+      "sha256": "ac311cbf9c2f34b1e744072848f792bf1dad46b680f16af391aa7ffb0b1727f8"
+    },
+    {
+      "path": "evidence/classic-protection-baseline.json",
+      "sha256": "c5fa1b79e72929982f6632b5c14046de48471ad3250828ac2703fead8df9369e"
+    },
+    {
+      "path": "evidence/created-disabled-rule.json",
+      "sha256": "fc6a4326424e3f96d993ae8fa65606e71c31cd40a44a88455e405616f722ef02"
+    },
+    {
+      "path": "evidence/evidence-digests.json",
+      "sha256": "564ad3088388e5e7a2c0610da739d5947c1003ca49452ba730da017eb6247fe6"
+    },
+    {
+      "path": "evidence/independent-review.json",
+      "sha256": "975c0a5408bd4154a8df822637792c700000e458191ac5c01ec8d02ed4cbd481"
+    },
+    {
+      "path": "evidence/initial-checks-absent.json",
+      "sha256": "2dd85d09fd7251ccf9cf7673c5dfc45017aefec932fba72f71e73322f3abf50e"
+    },
+    {
+      "path": "evidence/initial-checks-cancelled.json",
+      "sha256": "85a34f036730426de74a74b664dd4513342d1ff82ea292bb5e83262f3ca075e9"
+    },
+    {
+      "path": "evidence/initial-checks-failed.json",
+      "sha256": "ad2a7050a27800cad72629591479ee25d76281d312eb9875523002b05aa48c86"
+    },
+    {
+      "path": "evidence/initial-checks-passing.json",
+      "sha256": "ef3c55b8b1bc0eaf05856ba35a909649b443e80aad745ce4ce681f3f657a0fe7"
+    },
+    {
+      "path": "evidence/initial-checks-skipped.json",
+      "sha256": "bb09eb53fce0995361da1db4c19640279d6bec89a1b0411b08c1bd3e7a169b3a"
+    },
+    {
+      "path": "evidence/initial-runs-absent.json",
+      "sha256": "25a5595dcc4f44015aa473f84f64e7464b4eeed2229a68c8e29b881dbb6f125e"
+    },
+    {
+      "path": "evidence/initial-runs-cancelled.json",
+      "sha256": "abd69ddcb61782461c96c3dba11db104fdb9a57c0199af1cbbef6b2f5453a9ab"
+    },
+    {
+      "path": "evidence/initial-runs-failed.json",
+      "sha256": "1eaa939289d409271fef6b2eb837c89a2727319abcda85e8969951ac46eebec1"
+    },
+    {
+      "path": "evidence/initial-runs-passing.json",
+      "sha256": "f69d9c63a13386481fe55526d59860a25d973d7e10f89eee2fa453a779bdf8ce"
+    },
+    {
+      "path": "evidence/initial-runs-skipped.json",
+      "sha256": "daa4b3f77cf3630e2d54da8c19b1d2f0e48b6fa7d7d97afc9ab9fbce9c0d2f2f"
+    },
+    {
+      "path": "evidence/outcome.json",
+      "sha256": "5ba24fdc8fbd148ec5c67a1fba4dbd8fa13dd6189479384274dfc712541fa0ab"
+    },
+    {
+      "path": "evidence/passing-check-details.json",
+      "sha256": "6b626a0621d4dcdb2d0a577078dd7d8170eb0dc6f8898983963e87a2ca3e009c"
+    },
+    {
+      "path": "evidence/passing-jobs.json",
+      "sha256": "afd2323ebd1f32f2b518042172f5e3bd819c2cf5a516265c95e47051590153cf"
+    },
+    {
+      "path": "evidence/pr-absent.json",
+      "sha256": "1b992f72cf4667a567e048b3ef29f07259d94c5f17335059fc197d1c66333f2e"
+    },
+    {
+      "path": "evidence/pr-cancelled.json",
+      "sha256": "320134e3bb64fd3f2624159b99a650abfda276107d840ad1cb6bb94202da1cf2"
+    },
+    {
+      "path": "evidence/pr-failed.json",
+      "sha256": "48e031d5081a87812f17d3e94df5baa12099b5c2c567b6fd036310e71f1bcaa3"
+    },
+    {
+      "path": "evidence/pr-passing.json",
+      "sha256": "4ea7acea986a7c3e0cf070466d86e979ccc986123d9e82a2f904b82188ae9316"
+    },
+    {
+      "path": "evidence/pr-skipped.json",
+      "sha256": "45ce287b3de282f9c9568c7eadd4526c98e0b083547517aa0615cff4f70a7dc2"
+    },
+    {
+      "path": "evidence/redaction-correction.json",
+      "sha256": "5f7fcd26cfbb27bc95b1d7ca5a72d8064e770c09deffe6e414c5cf254b4e2eaa"
+    },
+    {
+      "path": "evidence/repository.json",
+      "sha256": "a7123fdde7117996eb9c70018ccc6a11ff2c87e04b19ea815f195630c28adbcd"
+    },
+    {
+      "path": "evidence/retained-disabled-rule.json",
+      "sha256": "16b2743a02757486e32f4b1b4c655d53eef13c8a6d0ca58331beeb9d1a22858f"
+    },
+    {
+      "path": "evidence/rulesets-baseline.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/unchanged-protected-branch.json",
+      "sha256": "617e1902b1a4d0e4a4571f933269b4f466c7884bce6f0cc4b656917d02472939"
+    },
+    {
+      "path": "evidence/evidence-digests-sanitized.json",
+      "sha256": "d34cc20315b705bb8f8b6a5380553d18f9da036d10942c9de629a5354612de5f"
+    }
+  ],
+  "checks": {
+    "sanitized_manifest_entries": 31,
+    "all_sanitized_manifest_hashes_match": true,
+    "complete_input_json_membership_before_this_new_review": 32,
+    "manifest_self_excluded_from_its_entries": true,
+    "current_input_json_known_credential_fields": 0,
+    "advertised_remote_branches": 7,
+    "local_and_remote_ref_sets_match_correction_map": true,
+    "reachable_commits": 8,
+    "unique_historical_json_blobs_inspected": 30,
+    "historical_json_known_credential_fields": 0,
+    "historical_json_parse_failures": 0,
+    "local_reflog_entries": 0,
+    "local_fsck_full_unreachable_no_reflogs_exit_code": 0,
+    "local_fsck_unreachable_output_entries": 0,
+    "historical_manifest_current_byte_mismatch_paths": [
+      "repository.json"
+    ],
+    "original_independent_review_bytes_preserved": true
+  },
+  "method": [
+    "Parsed all current input JSON values recursively, inspecting property names for the exact captured field without printing values. Independently traversed all eight commits reachable from the seven scoped refs, collected their30 unique JSON blobs, parsed each and checked recursively for the field.",
+    "Live read-only git ls-remote --heads origin returned exactly the seven correction-map heads. Independently compared local refs to that map. No remote rewrite, native setting or test mutation by this reviewer.",
+    "Checked all31 sanitized manifest hashes and complete pre-review input membership; the manifest excludes itself. After this audit is added, it is a new output rather than an input to its own attestation.",
+    "Read the historical and sanitized manifests, original attestation and correction note. Only repository.json differs from the original manifest; original independent-review.json remains byte-identical. Independently ran git fsck --full --unreachable --no-reflogs (exit0, empty output) and git reflog show --all (zero entries)."
+  ],
+  "findings": [
+    {
+      "id": "REDACTION-IR-01",
+      "severity": "HIGH",
+      "status": "CORRECTED_WITHIN_CHECKED_SCOPE",
+      "finding": "Temporary GitHub clone credential field was captured in private repository metadata and committed. Current evidence and all JSON blobs reachable through the seven checked advertised branch histories now omit that field. This does not establish provider object-cache purge, credential expiration/revocation or a universal secret scan."
+    },
+    {
+      "id": "REDACTION-IR-02",
+      "severity": "MEDIUM",
+      "status": "DISCLOSED",
+      "finding": "Original manifest and independent attestation bind pre-sanitization bytes and old heads. They are preserved as historical observations and are not current byte validators. Current repository metadata matches the sanitized manifest; the historical repository.json digest deliberately does not match. Old source/PR/check SHAs remain historical facts; rewritten branch SHAs do not inherit new behavior credit."
+    }
+  ],
+  "credential_probe_assessment": {
+    "recorded_anonymous_private_git_http_status": 401,
+    "recorded_captured_credential_private_git_http_status": 403,
+    "independently_repeated": false,
+    "interpretation": "The correction note reports rejection at that endpoint. I did not rerun a credential-bearing probe or read/reproduce its value. Expiration, revocation and validity at other endpoints are not established."
+  },
+  "limitations": [
+    "Checked absence of the exact known credential property in parsed JSON inputs/history; did not claim a universal search for every possible credential encoding, text copy or provider-held object.",
+    "GitHub unreferenced commits/PR caches are unmeasured and not claimed purged. Only advertised branch histories were independently reconciled; no inaccessible provider object reclamation claim.",
+    "No guarantee that future API captures will omit this field; future capture must exclude generated credentials before writing evidence.",
+    "Historical API observations were not rerun after rewriting Git history. The prior nominal-passing evidence still contains two jobs with no executed steps and startup-failure annotations, but its old SHAs are not receipts for current rewritten commits. Resume needs fresh publisher/revision/behavior observations on the current approved target.",
+    "The original source-plan approval/public payload head is distinct from the rewritten private evidence heads. Any old public private-evidence locator must be replaced with the new committed sanitized custody locator and label the original evidence bytes historical."
+  ],
+  "native_status": "BLOCKED_FROM_PRIOR_OBSERVATIONS",
+  "observed_nominal_passing_executed_job_steps": 0,
+  "zero_step_observation_is_historical": true,
+  "new_native_behavior_after_history_rewrite_verified": false,
+  "native_acceptance": false,
+  "rollback_exercised": false,
+  "policy_adopted": false,
+  "estate_rollout_performed": false,
+  "full_control_acceptance_or_all_nine_gate_closure": false,
+  "provider_object_cache_purge_verified": false,
+  "credential_expired_or_revoked_verified": false,
+  "public_private_credential_details_published": false
+}

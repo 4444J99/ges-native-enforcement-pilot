@@ -1,0 +1,27 @@
+{
+  "schema": "ges.private-evidence-redaction.v1",
+  "corrected_at": "2026-10-07T01:12:12.377992+00:00",
+  "finding": "GitHub temporary clone credential was captured in private repository metadata. The value was never printed or added to public GES.",
+  "removed_field": "temp_clone_token",
+  "scope": "All seven branches created exclusively by this approved pilot attempt; exact remote/local parity and per-ref leases checked before atomic update. No other repository or owner credential was changed.",
+  "credential_probe": {
+    "anonymous_private_git_http_status": 401,
+    "captured_temporary_credential_private_git_http_status": 403,
+    "interpretation": "Captured credential rejected by the private git endpoint; expiry/revocation not independently established."
+  },
+  "sanitized_refs": {
+    "refs/heads/canary/absent": "827dc41ed47f41c67235e7e0236fde6bda44ff40",
+    "refs/heads/canary/cancelled": "fcfcf2e17c06f499c0873a4f6317bcb9eb19e3ce",
+    "refs/heads/canary/failed": "6f940e6400a71b8e84e0390af3012a0b844ec502",
+    "refs/heads/canary/passing": "8aa6011e562c49511902deaac0e7b9764253845c",
+    "refs/heads/canary/skipped": "def737ca2f6f91448a58a04441447e087d2a1441",
+    "refs/heads/evidence/native-pilot-attempt": "8efb38216012e87d032058149c9a51fd09600042",
+    "refs/heads/main": "3f0b63ca3f7ff7fce30163c20fbb7c1ca4f462e3"
+  },
+  "historical_manifests": "evidence-digests.json and independent-review.json describe original observations and byte digests. They are historical attestations, not validators of sanitized byte content. Use evidence-digests-sanitized.json plus independent-redaction-review.json for current custody.",
+  "historical_observations": "Recorded pre-redaction main/PR SHAs remain historical facts; history repair deliberately changed current branch SHAs and does not establish fresh behavior or native acceptance.",
+  "provider_object_purge": "Unreferenced commit/PR caches held by GitHub are not measured or claimed purged. Remote advertised branch histories are sanitized; private access remains required.",
+  "native_acceptance": false,
+  "enforcement": "disabled",
+  "retained": true
+}
