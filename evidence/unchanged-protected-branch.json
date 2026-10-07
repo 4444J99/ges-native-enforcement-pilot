@@ -1,0 +1,102 @@
+{
+  "observed_at": "2026-10-07T01:00:19.305293+00:00",
+  "arguments": [
+    "repos/4444J99/ges-native-enforcement-pilot/branches/main"
+  ],
+  "request": null,
+  "exit_code": 0,
+  "response": {
+    "name": "main",
+    "commit": {
+      "sha": "4045fd043751917d26917e62a6ccd805ead0c71e",
+      "node_id": "C_kwDOU-2DAdoAKDQwNDVmZDA0Mzc1MTkxN2QyNjkxN2U2MmE2Y2NkODA1ZWFkMGM3MWU",
+      "commit": {
+        "author": {
+          "name": "4444jPPP",
+          "email": "padavano.anthony@gmail.com",
+          "date": "2026-10-07T00:57:16Z"
+        },
+        "committer": {
+          "name": "4444jPPP",
+          "email": "padavano.anthony@gmail.com",
+          "date": "2026-10-07T00:57:16Z"
+        },
+        "message": "Bootstrap approved private branch enforcement pilot",
+        "tree": {
+          "sha": "0ec2d8a2601c8639d045815220f2aebaf99c8df7",
+          "url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/git/trees/0ec2d8a2601c8639d045815220f2aebaf99c8df7"
+        },
+        "url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/git/commits/4045fd043751917d26917e62a6ccd805ead0c71e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/commits/4045fd043751917d26917e62a6ccd805ead0c71e",
+      "html_url": "https://github.com/4444J99/ges-native-enforcement-pilot/commit/4045fd043751917d26917e62a6ccd805ead0c71e",
+      "comments_url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/commits/4045fd043751917d26917e62a6ccd805ead0c71e/comments",
+      "author": {
+        "login": "4444J99",
+        "id": 24796448,
+        "node_id": "MDQ6VXNlcjI0Nzk2NDQ4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24796448?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/4444J99",
+        "html_url": "https://github.com/4444J99",
+        "followers_url": "https://api.github.com/users/4444J99/followers",
+        "following_url": "https://api.github.com/users/4444J99/following{/other_user}",
+        "gists_url": "https://api.github.com/users/4444J99/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/4444J99/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/4444J99/subscriptions",
+        "organizations_url": "https://api.github.com/users/4444J99/orgs",
+        "repos_url": "https://api.github.com/users/4444J99/repos",
+        "events_url": "https://api.github.com/users/4444J99/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/4444J99/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "4444J99",
+        "id": 24796448,
+        "node_id": "MDQ6VXNlcjI0Nzk2NDQ4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24796448?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/4444J99",
+        "html_url": "https://github.com/4444J99",
+        "followers_url": "https://api.github.com/users/4444J99/followers",
+        "following_url": "https://api.github.com/users/4444J99/following{/other_user}",
+        "gists_url": "https://api.github.com/users/4444J99/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/4444J99/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/4444J99/subscriptions",
+        "organizations_url": "https://api.github.com/users/4444J99/orgs",
+        "repos_url": "https://api.github.com/users/4444J99/repos",
+        "events_url": "https://api.github.com/users/4444J99/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/4444J99/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    },
+    "_links": {
+      "self": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/branches/main",
+      "html": "https://github.com/4444J99/ges-native-enforcement-pilot/tree/main"
+    },
+    "protected": false,
+    "protection": {
+      "enabled": false,
+      "required_status_checks": {
+        "enforcement_level": "off",
+        "contexts": [],
+        "checks": []
+      }
+    },
+    "protection_url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/branches/main/protection"
+  },
+  "error": ""
+}

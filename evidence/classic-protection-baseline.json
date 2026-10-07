@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-07T00:57:47.226630+00:00",
+  "arguments": [
+    "repos/4444J99/ges-native-enforcement-pilot/branches/main/protection"
+  ],
+  "request": null,
+  "exit_code": 1,
+  "response": {
+    "message": "Branch not protected",
+    "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+    "status": "404"
+  },
+  "error": "gh: Branch not protected (HTTP 404)\n"
+}

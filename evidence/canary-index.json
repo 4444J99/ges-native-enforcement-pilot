@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "passing",
+    "number": 1,
+    "head_sha": "bcb332599b382b681555241efa18ffd1a2a8a354",
+    "base_sha": "4045fd043751917d26917e62a6ccd805ead0c71e"
+  },
+  {
+    "scenario": "failed",
+    "number": 2,
+    "head_sha": "9a1c64687d90ac3b3fe7a1ecd09a5a3a609c1b83",
+    "base_sha": "4045fd043751917d26917e62a6ccd805ead0c71e"
+  },
+  {
+    "scenario": "skipped",
+    "number": 3,
+    "head_sha": "086e8cf508ad1a8b9b59833c25a8569bfdb4a107",
+    "base_sha": "4045fd043751917d26917e62a6ccd805ead0c71e"
+  },
+  {
+    "scenario": "absent",
+    "number": 4,
+    "head_sha": "2ecac3fcb63ab3a156bf75454fc6dc114b3e3091",
+    "base_sha": "4045fd043751917d26917e62a6ccd805ead0c71e"
+  },
+  {
+    "scenario": "cancelled",
+    "number": 5,
+    "head_sha": "c3c9d9bb870bebf655250f3dfe819c1a6f535b9e",
+    "base_sha": "4045fd043751917d26917e62a6ccd805ead0c71e"
+  }
+]

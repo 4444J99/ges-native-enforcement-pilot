@@ -1,0 +1,68 @@
+{
+  "observed_at": "2026-10-07T00:59:41.953143+00:00",
+  "arguments": [
+    "repos/4444J99/ges-native-enforcement-pilot/actions/runs/37554695466/jobs"
+  ],
+  "request": null,
+  "exit_code": 0,
+  "response": {
+    "total_count": 2,
+    "jobs": [
+      {
+        "id": 112578126987,
+        "run_id": 37554695466,
+        "workflow_name": "Branch pilot",
+        "head_branch": "canary/passing",
+        "run_url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/actions/runs/37554695466",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOU-2DAc8AAAAaNi3kiw",
+        "head_sha": "bcb332599b382b681555241efa18ffd1a2a8a354",
+        "url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/actions/jobs/112578126987",
+        "html_url": "https://github.com/4444J99/ges-native-enforcement-pilot/actions/runs/37554695466/job/112578126987",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-10-07T00:58:05Z",
+        "started_at": "2026-10-07T00:58:05Z",
+        "completed_at": "2026-10-07T00:58:08Z",
+        "name": "pilot-test",
+        "steps": [],
+        "check_run_url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/check-runs/112578126987",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 0,
+        "runner_name": "",
+        "runner_group_id": 0,
+        "runner_group_name": ""
+      },
+      {
+        "id": 112578140102,
+        "run_id": 37554695466,
+        "workflow_name": "Branch pilot",
+        "head_branch": "canary/passing",
+        "run_url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/actions/runs/37554695466",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOU-2DAc8AAAAaNi4Xxg",
+        "head_sha": "bcb332599b382b681555241efa18ffd1a2a8a354",
+        "url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/actions/jobs/112578140102",
+        "html_url": "https://github.com/4444J99/ges-native-enforcement-pilot/actions/runs/37554695466/job/112578140102",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-10-07T00:58:08Z",
+        "started_at": "2026-10-07T00:58:08Z",
+        "completed_at": "2026-10-07T00:58:11Z",
+        "name": "pilot-required",
+        "steps": [],
+        "check_run_url": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/check-runs/112578140102",
+        "labels": [
+          "ubuntu-latest"
+        ],
+        "runner_id": 0,
+        "runner_name": "",
+        "runner_group_id": 0,
+        "runner_group_name": ""
+      }
+    ]
+  },
+  "error": ""
+}

@@ -1,0 +1,74 @@
+{
+  "observed_at": "2026-10-07T01:00:15.804789+00:00",
+  "arguments": [
+    "repos/4444J99/ges-native-enforcement-pilot/rulesets/24619160"
+  ],
+  "request": null,
+  "exit_code": 0,
+  "response": {
+    "id": 24619160,
+    "name": "ges-private-branch-pilot",
+    "target": "branch",
+    "source_type": "Repository",
+    "source": "4444J99/ges-native-enforcement-pilot",
+    "enforcement": "disabled",
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "refs/heads/main"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "type": "deletion"
+      },
+      {
+        "type": "non_fast_forward"
+      },
+      {
+        "type": "pull_request",
+        "parameters": {
+          "required_approving_review_count": 0,
+          "dismiss_stale_reviews_on_push": true,
+          "required_reviewers": [],
+          "require_code_owner_review": false,
+          "require_last_push_approval": false,
+          "required_review_thread_resolution": true,
+          "require_extra_approval_for_unattributed_changes": true,
+          "allowed_merge_methods": [
+            "merge"
+          ]
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": true,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "pilot-required",
+              "integration_id": 15368
+            }
+          ]
+        }
+      }
+    ],
+    "node_id": "RRS_lACqUmVwb3NpdG9yec5T7YMBzgF3qJg",
+    "created_at": "2026-10-06T20:57:19.846-04:00",
+    "updated_at": "2026-10-06T20:57:19.929-04:00",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/4444J99/ges-native-enforcement-pilot/rulesets/24619160"
+      },
+      "html": {
+        "href": "https://github.com/4444J99/ges-native-enforcement-pilot/rules/24619160"
+      }
+    }
+  },
+  "error": ""
+}

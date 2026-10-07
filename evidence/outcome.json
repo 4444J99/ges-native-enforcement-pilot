@@ -1,0 +1,30 @@
+{
+  "schema": "ges.private-native-pilot-observation.v1",
+  "observed_at": "2026-10-07T01:00:19.305966+00:00",
+  "source_head": "4d3aa01d85f22e78799d3de6589ee8f398e8b200",
+  "target": "4444J99/ges-native-enforcement-pilot",
+  "private": true,
+  "owner_approval": true,
+  "status": "BLOCKED_ACTIONS_BILLING",
+  "ruleset_created": true,
+  "ruleset_id": 24619160,
+  "enforcement": "disabled",
+  "activated": false,
+  "job_steps_executed": 0,
+  "passing_canary_proved": false,
+  "negative_canary_command_behavior_proved": false,
+  "rollback_exercised": false,
+  "native_acceptance": false,
+  "policy_adopted": false,
+  "estate_rollout_performed": false,
+  "spending_changed": false,
+  "visibility_changed": false,
+  "retained": true,
+  "finding": "Actions jobs never started: failed account payments or spending limit requires increase. API annotations do not distinguish which.",
+  "sequence_deviation": "Disabled rule was created before publisher confirmation; baseline/readback subsequently captured. Activation never attempted.",
+  "server_defaults": {
+    "require_extra_approval_for_unattributed_changes": true,
+    "required_reviewers": []
+  },
+  "next_action": "Owner resolves Actions account payment/spending issue or explicitly approves a supported runner alternative; resume actual workflow execution and canaries before activation."
+}
