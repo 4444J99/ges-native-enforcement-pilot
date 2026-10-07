@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-10-07T01:25:43.648627+00:00",
+  "latest_run_id": 37555853249,
+  "status": "completed",
+  "conclusion": "failure",
+  "jobs": [
+    {
+      "id": 112581786778,
+      "name": "pilot-test",
+      "conclusion": "failure",
+      "steps": 0
+    },
+    {
+      "id": 112581800214,
+      "name": "pilot-required",
+      "conclusion": "failure",
+      "steps": 0
+    }
+  ],
+  "billing_changes_performed": false,
+  "failure_annotations": [
+    "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings",
+    "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings"
+  ]
+}
