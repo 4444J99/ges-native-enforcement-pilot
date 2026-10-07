@@ -1,0 +1,213 @@
+{
+  "review_type": "bounded independent private native pilot evidence audit",
+  "reviewer": "codex:/root/bounded_independent_review",
+  "reviewer_task": "/root/bounded_independent_review",
+  "parent_native_session_witness": "01a11342-68e2-7851-9636-9af99289c0d7",
+  "independent_native_session_id": null,
+  "human_review": false,
+  "reviewed_at": "2026-10-07T01:04:09.651169+00:00",
+  "observed_private_evidence_head": "889cfa1039bd9f1c76abde8875e041d19e48ad4d",
+  "approved_public_source_head": "4d3aa01d85f22e78799d3de6589ee8f398e8b200",
+  "native_status": "BLOCKED_ACTIONS_BILLING",
+  "native_acceptance": false,
+  "truthful_observation_accounting": "PASS",
+  "scope": "Approved payload fidelity, complete evidence-file digest membership at the observed private input head, baseline/Disabled readbacks, five canary PR identities, initial check/run publisher/revision bindings, nominal passing job execution, retained state and truthful outcome limitations. No native mutations, new tests, public private-detail publication or whole-control/A6 acceptance by this reviewer.",
+  "method": [
+    "Read approved plan at4d3aa01 and compared exact workflow/canary bytes and configured ruleset parameters with private baseline/readback.",
+    "Independently inspected five canary PRs, check/run revisions/events/publishers, passing job details and both startup-failure annotations.",
+    "Verified all28 manifest-bound evidence files and complete input JSON-file membership at889cfa1 (excluding the digest manifest itself) and exact identical created/retained full Disabled rule response; compared main readback to all recorded canary base SHAs. No more Actions API calls or upstream code execution."
+  ],
+  "inputs": [
+    {
+      "path": "evidence/annotations-pilot-required.json",
+      "sha256": "dd266d792184da68138cfb14b140da35b10986629e6edddc7ba7f808cddcc9c9"
+    },
+    {
+      "path": "evidence/annotations-pilot-test.json",
+      "sha256": "d789db9bab6fe11af58b34f7fe299a61735481a983b6347863148d4cf99c9984"
+    },
+    {
+      "path": "evidence/approval.json",
+      "sha256": "7fd5095bfe590038c74b50b8d10d5555d82bbc56ddfc220423913481acc3c62a"
+    },
+    {
+      "path": "evidence/canary-index.json",
+      "sha256": "ac311cbf9c2f34b1e744072848f792bf1dad46b680f16af391aa7ffb0b1727f8"
+    },
+    {
+      "path": "evidence/classic-protection-baseline.json",
+      "sha256": "c5fa1b79e72929982f6632b5c14046de48471ad3250828ac2703fead8df9369e"
+    },
+    {
+      "path": "evidence/created-disabled-rule.json",
+      "sha256": "fc6a4326424e3f96d993ae8fa65606e71c31cd40a44a88455e405616f722ef02"
+    },
+    {
+      "path": "evidence/initial-checks-absent.json",
+      "sha256": "2dd85d09fd7251ccf9cf7673c5dfc45017aefec932fba72f71e73322f3abf50e"
+    },
+    {
+      "path": "evidence/initial-checks-cancelled.json",
+      "sha256": "85a34f036730426de74a74b664dd4513342d1ff82ea292bb5e83262f3ca075e9"
+    },
+    {
+      "path": "evidence/initial-checks-failed.json",
+      "sha256": "ad2a7050a27800cad72629591479ee25d76281d312eb9875523002b05aa48c86"
+    },
+    {
+      "path": "evidence/initial-checks-passing.json",
+      "sha256": "ef3c55b8b1bc0eaf05856ba35a909649b443e80aad745ce4ce681f3f657a0fe7"
+    },
+    {
+      "path": "evidence/initial-checks-skipped.json",
+      "sha256": "bb09eb53fce0995361da1db4c19640279d6bec89a1b0411b08c1bd3e7a169b3a"
+    },
+    {
+      "path": "evidence/initial-runs-absent.json",
+      "sha256": "25a5595dcc4f44015aa473f84f64e7464b4eeed2229a68c8e29b881dbb6f125e"
+    },
+    {
+      "path": "evidence/initial-runs-cancelled.json",
+      "sha256": "abd69ddcb61782461c96c3dba11db104fdb9a57c0199af1cbbef6b2f5453a9ab"
+    },
+    {
+      "path": "evidence/initial-runs-failed.json",
+      "sha256": "1eaa939289d409271fef6b2eb837c89a2727319abcda85e8969951ac46eebec1"
+    },
+    {
+      "path": "evidence/initial-runs-passing.json",
+      "sha256": "f69d9c63a13386481fe55526d59860a25d973d7e10f89eee2fa453a779bdf8ce"
+    },
+    {
+      "path": "evidence/initial-runs-skipped.json",
+      "sha256": "daa4b3f77cf3630e2d54da8c19b1d2f0e48b6fa7d7d97afc9ab9fbce9c0d2f2f"
+    },
+    {
+      "path": "evidence/outcome.json",
+      "sha256": "5ba24fdc8fbd148ec5c67a1fba4dbd8fa13dd6189479384274dfc712541fa0ab"
+    },
+    {
+      "path": "evidence/passing-check-details.json",
+      "sha256": "6b626a0621d4dcdb2d0a577078dd7d8170eb0dc6f8898983963e87a2ca3e009c"
+    },
+    {
+      "path": "evidence/passing-jobs.json",
+      "sha256": "afd2323ebd1f32f2b518042172f5e3bd819c2cf5a516265c95e47051590153cf"
+    },
+    {
+      "path": "evidence/pr-absent.json",
+      "sha256": "1b992f72cf4667a567e048b3ef29f07259d94c5f17335059fc197d1c66333f2e"
+    },
+    {
+      "path": "evidence/pr-cancelled.json",
+      "sha256": "320134e3bb64fd3f2624159b99a650abfda276107d840ad1cb6bb94202da1cf2"
+    },
+    {
+      "path": "evidence/pr-failed.json",
+      "sha256": "48e031d5081a87812f17d3e94df5baa12099b5c2c567b6fd036310e71f1bcaa3"
+    },
+    {
+      "path": "evidence/pr-passing.json",
+      "sha256": "4ea7acea986a7c3e0cf070466d86e979ccc986123d9e82a2f904b82188ae9316"
+    },
+    {
+      "path": "evidence/pr-skipped.json",
+      "sha256": "45ce287b3de282f9c9568c7eadd4526c98e0b083547517aa0615cff4f70a7dc2"
+    },
+    {
+      "path": "evidence/repository.json",
+      "sha256": "71ab87b72dcc9622630a4b08901ec085e7c68ed7bc51712883c0d02bf7ab8d53"
+    },
+    {
+      "path": "evidence/retained-disabled-rule.json",
+      "sha256": "16b2743a02757486e32f4b1b4c655d53eef13c8a6d0ca58331beeb9d1a22858f"
+    },
+    {
+      "path": "evidence/rulesets-baseline.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/unchanged-protected-branch.json",
+      "sha256": "617e1902b1a4d0e4a4571f933269b4f466c7884bce6f0cc4b656917d02472939"
+    },
+    {
+      "path": "evidence/evidence-digests.json",
+      "sha256": "564ad3088388e5e7a2c0610da739d5947c1003ca49452ba730da017eb6247fe6"
+    },
+    {
+      "path": ".github/workflows/branch-pilot.yml",
+      "sha256": "4330730e65d9b1059d9a4b99828568a76283c767a151ad279077f3c0d2645973"
+    },
+    {
+      "path": "pilot_canary.py",
+      "sha256": "21ebfed5c14ec6a5a75289e71f7316730577abcd9a0038867cea7bc4f08aba98"
+    }
+  ],
+  "positive_facts": [
+    "Captured approval identifies the exact source plan, owner, private scope and parent native session. Repository snapshot is private, owner-owned and grants authenticated admin permissions.",
+    "Baseline rulesets are empty; classic-protection request returned explicit Branch not protected404. A main-only rule with no bypass actors was created Disabled and read back. This confirms the Disabled configuration could be created; it does not prove Active eligibility or enforcement.",
+    "Baseline workflow and canary exactly match the approved payload. Five distinct scenario PRs are created against the recorded unchanged baseline; their numbers/head/base identities match the canary index.",
+    "For the nominal passing scenario, pull_request run and selected-App15368 checks share head SHA and check-suite binding. This proves observed publisher/event/revision association, not successful execution or native required-revision selection.",
+    "Both nominal passing jobs report failure, contain no steps, and have startup annotations stating failed account payments or a spending-limit increase is needed. The API does not distinguish which underlying account condition applies.",
+    "Final complete rule response equals the created Disabled readback, including bypass actors and server defaults. Main SHA is unchanged and branch readback reports protected:false. The attempt stopped without activation; retained Disabled configuration is not exercised rollback."
+  ],
+  "observed_job_steps_executed": 0,
+  "execution_observation_scope": {
+    "captured_nominal_passing_jobs": 2,
+    "captured_job_step_entries": 0,
+    "other_scenario_command_execution": "Not independently proved; check conclusions are not command-execution receipts. The zero is observed executed steps, not exhaustive proof about uncollected historical jobs."
+  },
+  "findings": [
+    {
+      "id": "NP-IR-01",
+      "severity": "BLOCKER",
+      "status": "OPEN_EXTERNAL",
+      "finding": "The nominal passing workflow never started its jobs because of the annotated account payment/spending restriction. Positive execution and therefore approved native acceptance cannot pass. Do not credit failed/skipped/absent/cancelled check labels as proof of canary/aggregator commands or native rejection behavior."
+    },
+    {
+      "id": "NP-IR-02",
+      "severity": "MEDIUM",
+      "status": "DISCLOSED",
+      "finding": "Disabled rule was created before PR-event publisher confirmation, deviating from the plan sequence. Baseline/readback were subsequently captured; activation was not attempted. This must remain disclosed on resume rather than describing this attempt as exact-sequence completion."
+    },
+    {
+      "id": "NP-IR-03",
+      "severity": "LOW",
+      "status": "DISCLOSED",
+      "finding": "API added required_reviewers:[] and require_extra_approval_for_unattributed_changes:true to the PR-rule readback. All expressly approved parameters match after separating those two server defaults. Full readback preserves both; no assertion of byte-identical submitted and returned JSON."
+    }
+  ],
+  "server_defaults": {
+    "required_reviewers": [],
+    "require_extra_approval_for_unattributed_changes": true
+  },
+  "not_proved": [
+    "Passing canary or actual aggregator/dependency command behavior",
+    "Explicit cancellation command outcome or distinct negative-canary enforcement rejection",
+    "Active plan eligibility, protection activation or native bypass resistance",
+    "Accepted/rejected PR merge, direct/force push or protected branch-deletion behavior",
+    "Required head versus test-merge selection by actual native merge enforcement",
+    "Rollback, restored baseline behavior or reapplication verification",
+    "Code-owner, signing, queue, metadata-regex or broader estate behavior"
+  ],
+  "policy_adopted": false,
+  "activated": false,
+  "rollback_exercised": false,
+  "native_behavior_verified": false,
+  "estate_rollout_performed": false,
+  "full_control_acceptance_or_all_nine_gate_closure": false,
+  "public_private_assessment_details_written": false,
+  "remaining_action": "Owner resolves the Actions account condition, or expressly approves a supported runner/payload alternative. Reconfirm publisher and actual workflow execution before activation, then perform the approved positive/negative behavior and rollback/readback sequence. Do not manufacture success, weaken the required check or change spending/visibility implicitly.",
+  "custody": "Private repository and evidence retained; no repository/rule deletion authorized by this audit.",
+  "public_aggregate_review": {
+    "status": "PASS",
+    "assessed_paths": [
+      "docs/private-native-pilot-result.md",
+      "docs/native-branch-pilot-plan.md",
+      "docs/remaining-work.md",
+      ".codex/plans/2026-10-06-private-native-pilot.md"
+    ],
+    "findings": "Public text retains blocked execution and incomplete native milestones, omits detailed provider diagnosis and raw private observation payloads, and distinguishes observed publisher association from successful execution. Resume order separates pre-activation workflow/command confirmation from Active-rule enforcement tests and rollback. Any subsequently appended private immutable locator is outside this exact-text pass.",
+    "private_diagnosis_published": false
+  }
+}
