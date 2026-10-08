@@ -1,0 +1,92 @@
+{
+  "schema": "ges.native-pilot-execution-observation.v1",
+  "observed_at": "2026-10-08T01:44:07.769Z",
+  "recorded_by": "ChatGPT agent acting under the user's instruction to proceed with the approved work package",
+  "scope": "One bounded retry of the already approved private disposable native pilot; observation only.",
+  "authorization": {
+    "owner": "4444J99",
+    "plan_repository": "4444J99/github-engineering-standards",
+    "plan_path": "docs/native-branch-pilot-plan.md",
+    "approved_on": "2026-10-06",
+    "reviewed_payload_baseline": "4d3aa01d85f22e78799d3de6589ee8f398e8b200",
+    "current_instruction": "Proceed w all of the above",
+    "human_code_review_or_adoption_certified": false
+  },
+  "target": {
+    "repository": "4444J99/ges-native-enforcement-pilot",
+    "visibility": "private",
+    "branch": "main",
+    "main_sha_before": "3f0b63ca3f7ff7fce30163c20fbb7c1ca4f462e3",
+    "main_sha_after": "3f0b63ca3f7ff7fce30163c20fbb7c1ca4f462e3"
+  },
+  "action": {
+    "operation": "rerun_failed_workflow_run_jobs",
+    "run_id": 37560956698,
+    "attempt": 2,
+    "accepted_by_provider": true
+  },
+  "run": {
+    "id": 37560956698,
+    "attempt": 2,
+    "event": "pull_request",
+    "head_branch": "canary/passing",
+    "head_sha": "b22370e86f69485f3ca72439f29692972d7aa199",
+    "status": "completed",
+    "conclusion": "failure",
+    "updated_at": "2026-10-08T01:28:46Z",
+    "url": "https://github.com/4444J99/ges-native-enforcement-pilot/actions/runs/37560956698"
+  },
+  "jobs": [
+    {
+      "id": 113103367959,
+      "name": "pilot-test",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_sha": "b22370e86f69485f3ca72439f29692972d7aa199",
+      "executed_step_count": 0
+    },
+    {
+      "id": 113103380152,
+      "name": "pilot-required",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_sha": "b22370e86f69485f3ca72439f29692972d7aa199",
+      "executed_step_count": 0
+    }
+  ],
+  "logs": {
+    "requested_job_id": 113103367959,
+    "result": "UNAVAILABLE",
+    "http_status": 404,
+    "provider_code": "BlobNotFound"
+  },
+  "required_check_execution_established": false,
+  "current_failure_cause": "UNVERIFIED; this retry produced zero executed steps and no retrievable job log.",
+  "historical_diagnosis_reference": "evidence/actions-availability-20261007.json",
+  "historical_diagnosis_reconfirmed_for_this_attempt": false,
+  "ruleset": {
+    "id": 24619160,
+    "enforcement": "disabled",
+    "readback_path": "evidence/ruleset-readback-20261008.json",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never"
+  },
+  "acceptance": {
+    "verdict": "BLOCKED",
+    "observed": "Provider accepted the retry but executed zero steps for both pilot-test and pilot-required.",
+    "missing": [
+      "Actual passing canary and aggregator execution",
+      "Active-policy negative and positive behavior",
+      "Direct push, force update and deletion rejection",
+      "Bypass behavior assessment",
+      "Full rollback and unchanged second-run verification",
+      "Owner native-pilot acceptance"
+    ]
+  },
+  "stopped_before_activation": true,
+  "mutations_outside_retry": [],
+  "billing_or_visibility_changes": false,
+  "protected_branch_operations_attempted": false,
+  "acceptance_or_estate_credit": 0,
+  "resume_condition": "Establish actual execution of the approved PR-event canary and expected publisher before activation under the approved pilot plan."
+}
